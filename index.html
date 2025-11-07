@@ -1,38 +1,200 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta
-			name="viewport"
-			content="width=device-width, initial-scale=1.0"
-		/>
-		<title>Colmar Academy</title>
-		<link
-			href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-			rel="stylesheet"
-		/>
-		<link
-			href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
-			rel="stylesheet"
-		/>
-		<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-		<style type="text/tailwindcss">
-			@theme {
-				--font-sans: "Poppins", sans-serif;
-				--font-inter: "Inter", sans-serif;
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Colmar</title>
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="nav-container">
+          <div class="logo">
+            <img src="images/ic-logo.svg" alt="Colmar Academy Logo" />
+            <p>COLMAR</p>
+            <span>ACADEMY</span>
+          </div>
+          <ul class="bar">
+            <li><a href="#"></a>On campus</li>
+            <li><a href="#"></a>Online</li>
+            <li><a href="#"></a>or companies</li>
+            <li><a href="#"></a>Sign in</li>
+          </ul>
+        </div>
+      </nav>
+    </header>
 
-				--color-mint-200: oklch(0.92 0.18 145);
-				--color-mint-400: oklch(0.78 0.25 145);
-				--color-mint-700: oklch(0.56 0.32 145);
-			}
-		</style>
-	</head>
+    <main>
+      <section class="hero">
+        <div class="hero-con">
+          <div class="hero-photo">
+            <img src="images/banner.jpg" alt="" />
+          </div>
+          <div class="hero-intro">
+            <h1>Learn something nem everyday</h1>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error,
+              ut.
+            </p>
+            <a href="#" class="start-btn">Start here</a>
+          </div>
+        </div>
+      </section>
 
-	<body class="w-screen min-h-dvh">
-		<h1
-			class="h-auto p-4 text-xl font-semibold text-center bg-mint-200 text-neutral-900 hover:scale-105 md:text-3xl md:bg-sky-600 md:text-sky-50 md:text-shadow-sm"
-		>
-			Welcome to <br class="md:hidden" />Colmar Academy
-		</h1>
-	</body>
+      <section class="information">
+        <div class="infor-con">
+          <div class="infor-main">
+            <div class="photo-main">
+              <img src="images/information-main.jpg" alt="" />
+            </div>
+            <div class="main-content">
+              <h3>It doesn't hurt to keep practicing</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores
+                quod saepe magni optio ratione nostrum architecto natus id
+                aperiam nam.
+              </p>
+              <p>Emanuel, Sr Strategist at Hiring.com</p>
+            </div>
+          </div>
+          <div class="infor-block">
+            <div class="block">
+              <img src="images/information-orientation.jpg" alt="" />
+              <div class="block-content">
+                <h4>Orientation date</h4>
+                <p>Tue 10/11 &amp; Wed 10/12: 8am-3pm</p>
+                <a href="#" class="read-btn">Read more</a>
+              </div>
+            </div>
+            <div class="block">
+              <img src="images/information-campus.jpg" alt="" />
+              <div class="block-content">
+                <h4>Our campus</h4>
+                <p>
+                  Find which campus is close by you/p>
+                  <a href="#" class="read-btn">Read more</a>
+                </p>
+              </div>
+            </div>
+            <div class="block">
+              <img src="images/information-guest-lecture.jpg" alt="" />
+              <div class="block-content">
+                <h4>Our guest lecture</h4>
+                <p>
+                  Join a keynote with Oliver Sack about music in medical
+                  treatment
+                </p>
+                <a href="#" class="read-btn">Read more</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="course">
+        <div class="head-start">
+          <h1>Start Learning</h1>
+        </div>
+        <div class="course-con">
+          <div class="learning-card">
+            <div class="card">
+              <img src="images/course-software.jpg" />
+              <div class="box-content">
+                <h4>Software engineering</h4>
+                <h5>COURSE</h5>
+                <p>Web Development, Mobile Development, iOT, APIs</p>
+              </div>
+            </div>
+            <div class="card">
+              <img src="images/course-computer-art.jpg" />
+              <div class="box-content">
+                <h4>Computer art</h4>
+                <h5>COURSE</h5>
+                <p>Web Development, Mobile Development, iOT, APIs</p>
+              </div>
+            </div>
+            <div class="card">
+              <img src="images/course-design.jpg" />
+              <div class="box-content">
+                <h4>Design</h4>
+                <h5>COURSE</h5>
+                <p>Web Development, Mobile Development, iOT, APIs</p>
+              </div>
+            </div>
+            <div class="card">
+              <img src="images/course-data.jpg" />
+              <div class="box-content">
+                <h4>Data</h4>
+                <h5>COURSE</h5>
+                <p>Web Development, Mobile Development, iOT, APIs</p>
+              </div>
+            </div>
+            <div class="card">
+              <img src="images/course-business.jpg" />
+              <div class="box-content">
+                <h4>Business</h4>
+                <h5>COURSE</h5>
+                <p>Web Development, Mobile Development, iOT, APIs</p>
+              </div>
+            </div>
+            <div class="card">
+              <img src="images/course-marketing.jpg" />
+              <div class="box-content">
+                <h4>Marketing</h4>
+                <h5>COURSE</h5>
+                <p>Web Development, Mobile Development, iOT, APIs</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="thesis">
+        <h3>Thesis exhibits</h3>
+        <div class="thesis-con">
+          <div class="thesis-video">
+            <div class="video">
+              <video controls src="videos/thesis.mp4" type="video/mp4"></video>
+            </div>
+            <h4>Reimagine urban</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod vel
+              aliquam ipsam ut aperiam culpa cupiditate voluptatibus dolor unde
+              dolore.
+            </p>
+          </div>
+          <div class="thesis-block">
+            <div class="thesis-block-content">
+              <img src="images/thesis-fisma.jpg" />
+              <div class="box-content">
+                <h5>Fis</h5>
+                <p>Lorem ipsum dolor sit amet.</p>
+              </div>
+            </div>
+            <div class="thesis-block-content">
+              <img src="images/thesis-now-and-then.jpg" />
+              <div class="box-content">
+                <h5>Fis</h5>
+                <p>Lorem ipsum dolor sit amet.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p class="footer__copyright">
+        © 2016 Colmar Academy. All rights reserved
+      </p>
+      <ul class="footer__list">
+        <li class="footer__item"><a href="#" class="footer__link">Terms</a></li>
+        <li class="footer__item">
+          <a href="#" class="footer__link">Privacy</a>
+        </li>
+      </ul>
+    </footer>
+  </body>
 </html>

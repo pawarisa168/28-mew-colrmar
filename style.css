@@ -1,0 +1,75 @@
+body {
+  background-color: rgb(199, 198, 198);
+}
+
+nav {
+  height: 64px;
+  background-color: white;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  display: flex;
+  margin: 24px;
+}
+
+.logo p {
+  color: black;
+}
+
+.logo span {
+  color: rgb(181, 182, 183);
+}
+
+.bar {
+  display: flex;
+  list-style: none;
+  gap: 16px;
+  margin: 24px;
+}
+
+.bar li {
+  text-align: center;
+}
+
+.hero-con {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+}
+
+.information {
+  background-color: white;
+}
+.infor-con {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+}
+
+.learning-card {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 32px;
+}
+
+.thesis {
+  background-color: white;
+}
+
+.thesis-con {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 24px;
+}
+.thesis-video {
+  width: 60%;
+}
+
+footer {
+  background-color: white;
+}
